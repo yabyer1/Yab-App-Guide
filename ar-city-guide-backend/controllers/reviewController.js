@@ -10,4 +10,4 @@ const addReview = async (req, res) => {
                 res.status(500).json({message: 'Server Error'});
     }
 };
-module.exports(addReview);
+module.exports = {addReview};
